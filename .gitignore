@@ -3,12 +3,14 @@
 .DS_Store
 *.DS_Store
 HELP.md
+.mvn
 mvnw
 mvnw.cmd
 target/
 activemq-data/
 # Log file
 *.log
+
 
 # BlueJ files
 *.ctxt
@@ -23,6 +25,7 @@ activemq-data/
 *.zip
 *.tar.gz
 *.rar
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
