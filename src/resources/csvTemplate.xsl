@@ -1,7 +1,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text"/>
     <xsl:variable name="separator" select="','"/>
-    <!--<xsl:variable name="separator" select="'&#59;'"/>  точка-запятая -->
     <xsl:variable name="newline" select="'&#10;'"/>
     <xsl:template match="/">
         <xsl:text>id_art,name,code,username,guid,</xsl:text>

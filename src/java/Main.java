@@ -26,7 +26,7 @@ public class Main {
         //creating DB
         DB db = new DB();
         db.createDB();
-        db.insertFields(5);
+        db.insertFields(500);
         log.info("Created DB");
 
         //creating first xml file
