@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class ArticleCreator {
+public class ArticleBuilder {
 
     public List<Article> insertArticlesIntoDb(int maxCountOfRawEntry) {
 

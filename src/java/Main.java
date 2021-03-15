@@ -30,9 +30,9 @@ public class Main {
         log.info("Created DB");
 
         //creating first xml file
-        XmlBuilder xmlCreator = new XmlBuilder(db);
+        XmlBuilder xmlBuilder = new XmlBuilder(db);
         try {
-            xmlCreator.createXmlFile(firstResultXml, temporaryXml);
+            xmlBuilder.createXmlFile(firstResultXml, temporaryXml);
             log.info("Created firstResultXml");
         } catch (IOException e) {
             log.error("Caught" + e);
@@ -43,9 +43,9 @@ public class Main {
         }
 
         //xslt transform of first xml file
-        XmlTransformer transformator = new XmlTransformer();
+        XmlTransformer xmlTransformer = new XmlTransformer();
         try {
-            transformator.transformXml(firstResultXml,
+            xmlTransformer.transformXml(firstResultXml,
                     xsltTemplate,
                     finalResultXml);
             log.info("XSLT transforming done");

@@ -1,7 +1,7 @@
 package db;
 
 import model.Article;
-import service.ArticleCreator;
+import service.ArticleBuilder;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +34,7 @@ public class DB {
         try {
             Connection connection = DriverManager.getConnection(url,user, password);
             PreparedStatement preparedStatement = connection.prepareStatement(insertFields);
-            ArticleCreator dataCreator = new ArticleCreator();
+            ArticleBuilder dataCreator = new ArticleBuilder();
             List<Article> dataForInsertToDb = dataCreator.
                     insertArticlesIntoDb(n);
 
