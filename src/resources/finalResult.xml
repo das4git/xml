@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<articles>
+    <article>
+        <id_art>1</id_art>
+        <name>Батон нарезной в/с=1</name>
+        <code>-486533107</code>
+        <username>WHS-1</username>
+        <guid>4619155269096126713</guid>
+    </article>
+    <article>
+        <id_art>2</id_art>
+        <name>Батон нарезной в/с=2</name>
+        <code>1937018175</code>
+        <username>WHS-2</username>
+        <guid>843010110487442618</guid>
+    </article>
+    <article>
+        <id_art>3</id_art>
+        <name>Батон нарезной в/с=3</name>
+        <code>1066246932</code>
+        <username>WHS-3</username>
+        <guid>1959879076586135713</guid>
+    </article>
+    <article>
+        <id_art>4</id_art>
+        <name>Батон нарезной в/с=4</name>
+        <code>242300796</code>
+        <username>WHS-4</username>
+        <guid>-2725467305075766593</guid>
+    </article>
+    <article>
+        <id_art>5</id_art>
+        <name>Батон нарезной в/с=5</name>
+        <code>-1283695220</code>
+        <username>WHS-5</username>
+        <guid>9056559264635282320</guid>
+    </article>
+</articles>
