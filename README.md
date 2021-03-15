@@ -6,6 +6,7 @@
 </articles>
 ```
 2. Осуществляем XSLT преобразование и приводим XML файл к виду 
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <articles>
     <article>
@@ -16,5 +17,5 @@
         <guid>1309850966925697043</guid>
     </article>
 </articles>
-
+```
 3. Создаем CSV на основе последнего XML файла 
